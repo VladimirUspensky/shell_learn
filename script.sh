@@ -20,3 +20,9 @@ g++ -o prog prog.cpp
 ./prog
 bash inner_script.sh
 
+rm -R prog.cpp
+rm -R inner_script.sh
+rm -R inner_prog.cpp
+rm -R prog
+rm -R inner_prog
+
